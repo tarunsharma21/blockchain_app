@@ -1,6 +1,6 @@
 import { Box, Image, Text } from "@chakra-ui/react";
 import React from "react";
-import btcSrc from "../assets/btc.png";
+import btcSrc from "../assets/eth.jpg";
 import { motion } from "framer-motion";
 
 const Home = () => {
@@ -24,7 +24,7 @@ const Home = () => {
           h={"full"}
           objectFit={"contain"}
           src={btcSrc}
-          filter={"grayscale(1)"}
+        // filter={"grayscale(1)"}
         />
       </motion.div>
 
@@ -33,9 +33,9 @@ const Home = () => {
         textAlign={"center"}
         fontWeight={"thin"}
         color={"whiteAlpha.700"}
-        mt={"-20"}
+        mt={"-2"}
       >
-        Xcrypto
+        Ethereum
       </Text>
     </Box>
   );
